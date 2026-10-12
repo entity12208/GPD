@@ -1,0 +1,28 @@
+# javascript
+node_modules/
+dist/
+.vite/
+*.log
+
+# secrets / local environment (copy .env.example to .env)
+.env
+.env.local
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# generated download (rebuilt by `npm run setup:desktop`)
+gpd/public/gpd-desktop.zip
+
+# local data + scratch
+.preview/
+~/.gpd/
+
+# local git push credentials (never commit)
+.git-token
+.git-token.local
+.github-token

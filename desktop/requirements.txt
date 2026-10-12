@@ -1,0 +1,4 @@
+arcade>=3.3,<4
+pillow>=10
+# development / tests only
+pytest>=8
